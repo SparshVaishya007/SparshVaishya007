@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IQ TEST</title>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> --> 
+	<style type="text/css">
+		h1{
+			text-shadow: 4px 4px 10px rgb(252, 251, 251);
+			font-family: 'Bree Serif', serif;
+            text-decoration-color: rgb(190, 14, 206);
+		}
+		body{
+
+			margin: 0;
+	        padding: 0;
+	        background-image: url(wall.jpg);
+	        background-repeat: no-repeat;
+	        background-attachment: fixed;
+	        background-size: 1800px 900px;
+
+		}
+		#parent{
+			background-color: rgba(118, 119, 111, 0.7);
+			width:30%;
+			margin: 8% auto;
+			height:30%;
+			
+			font-family: 'Permanent Marker', cursive;
+
+			color:rgb(12, 11, 11);
+			text-align: center;
+			padding-bottom: 4%;
+			box-shadow: 0px 6px 9px 0px rgb(21, 234, 241);
+			border-radius: 30px;
+		}
+		#parent div h1{
+			margin: 1px 1px 12% 1px;
+		}
+
+		#parent .person{
+			padding: 15px 4px;
+			font-size: 25px;
+			background-color:rgba(255, 204, 255, 0.3);
+			color:rgb(45 0 153);
+			margin-bottom: 20px;
+			text-decoration: none;
+			display:block;
+			cursor:pointer;
+			box-shadow: 0px 6px 9px 0px rgb(39, 3, 238); 
+
+		}
+		#parent .person:hover{
+			background-color:rgb(252, 250, 253);
+			
+		}
+		#parent .person{
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		#exit{
+			text-decoration: none;
+		}
+
+
+
+@media only screen and (max-width: 1200px){
+	body{
+	
+	background-image:url('nauto.jpeg');
+	background-size: 100% 100%;
+	width:100%;
+	margin:auto;
+	height:100%;
+}
+
+#parent{
+	margin-top: 30%;
+	padding: 6%;
+	width:96%;
+	box-sizing: border-box;
+}
+
+#parent .person{
+	padding: 40px 30px;
+	font-size: 35px;
+
+
+}
+
+}
+
+@media only screen and (max-width: 720px){
+	
+body{
+			margin: 0;
+	        padding: 0;
+	        background-image:none;
+	        background-repeat: no-repeat;
+	        background-attachment: fixed;
+	        background-size: cover;
+		}
+		#parent{
+		margin-top: 40px;
+}
+#parent .person{
+	
+}
+}
+
+
+	</style>
+</head>
+<body>
+<div id="parent">
+	<div><h1>💡 IQ TEST 🧩</h1></div>
+	<div><a class="person" id="" href="project.html">Play</a></div>
+	<div ><a class="person" id="" href="help.html">Help</a></div>
+	<div><a class="person" id="" href="abouth.html">About</a></div>
+	<a href="#" id="exit"><div class="person" id="">Exit</div></a>
+</div>
+<div style="background-image: url('naruto.jpeg');"></div>
+</body>
+<script type="text/javascript">
+	var c = document.getElementById("exit");
+	//window.close(c);
+	c.onclick = function () {
+		document.getElementById("parent").style.display = "none";
+	}
+</script>
+</html>
