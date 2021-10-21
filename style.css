@@ -75,7 +75,7 @@ body{
 	left: 35%;
 	outline: none;
 	position: absolute;
-	background:linear-gradient(0deg, white, white 6%,#ffccff);
+	background:linear-gradient(0deg, white, white 6%,#0c93c9);
 }
 #content{
 	width: 55%;
@@ -140,70 +140,76 @@ h1{
 
 }
 #btn button[value="1"]{
-	background-image: url("images/blogs-aisle-say-flower-deliver-service-nyc-main.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	font-weight: bold;
+	transform: scaleY(2.5);
+	
 }
 
 #btn button[value="2"]{
-	background-image: url("images/honda-city-white.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	font-weight: bold;
-	transform: scaleY(1.5); 
+	transform: scaleY(2.5);
 }
 
 #btn button[value="3"]{
-	background-image: url("images/ducati-supersport-1.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	font-weight: bold;
-	transform: skewY(20deg); 
+	transform: scaleY(2.5); 
 }
 
 #btn button[value="4"]{
-	background-image: url("images/b1737cb4b3fddee4dac5cb26095c4e3f--farmhouse-front-doors-white-farmhouse-exterior (1).jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	font-weight: bold; 
-	transform: skewY(30deg); 
+	transform: scaleY(2.5); 
 }
 
 #btn button[value="5"]{
-	background-image: url("images/F100005436.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	/*font-size: 20px;*/
 	font-weight: bold; 
-	transform: skewY(40deg); 
+	transform: scaleY(2.5); 
 }
 
 #btn button[value="6"]{
-	background-image: url("images/240_F_119704775_IRoN3MFKNeRSF7Bs0aGMlU8OEUIdI7NR.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	/*font-size: 20px;*/
 	font-weight: bold;
-	transform:rotatey(50deg) ;
+	transform: scaleY(2.5);
 }
 
 #btn button[value="7"]{
-	background-image: url("images/recipe-image-legacy-id--414631_12.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	font-weight: bold; 
+	transform: scaleY(2.5);
 }
 
 #btn button[value="8"]{
-	background-image: url("images/Contemporary-Bedroom-Set.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
-	font-weight: bold; 
+	font-weight: bold;
+	transform: scaleY(2.5); 
 }
 
 #btn button[value="9"]{
-	background-image: url("images/main-qimg-475fdb3b65ac494258ad724a436ce452-c.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	font-weight: bold; 
+	transform: scaleY(2.5);
 }
 
 #btn button[value="10"]{
-	background-image: url("images/784F10CF-B448-421E-9B05-ED5DCCA390AA_w1023_r1_s.jpg");
+	background-image: url("imgmys.jpg");
 	background-size:100% 100%;
 	font-weight: bold; 
+	transform: scaleY(2.5);
 }
 
 
@@ -217,17 +223,17 @@ h1{
 }
 
 #tit{
-	margin-top: 7%;
+	margin-top: 10%;
 	
 }
 #btn{
-	width:96%;
+	width:100%;
 	margin:18% auto;
 }
 
 #btn button{
-	padding:7% 5%; 
-	margin: 4%;
+	padding:10% 9%; 
+	margin: 11%;
 }
 
 #content{
@@ -289,9 +295,9 @@ h1{
 	font-size: 10px;
 }
 #btn{
-	width:80%;
+	width:100%;
 	margin:36% auto;
-	height: 75%;
+	height: 100%;
 	font-size: 30px;
 }
 #btn button{
